@@ -2,7 +2,8 @@
 
 SITE = {
     "name": "Florica Ltd",
-    "url": "https://floricaltd.com",
+    "origin": "https://floricaltd.github.io",
+    "copyright_year": "2026",
     "email": "hello@floricaltd.com",
     "description": (
         "Florica Ltd helps ambitious teams turn AI and technology into practical, "

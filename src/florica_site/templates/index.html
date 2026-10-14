@@ -7,21 +7,21 @@
   <meta name="description" content="$description">
   <meta name="theme-color" content="#0b1714">
   <link rel="canonical" href="$canonical">
-  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
-  <link rel="preload" href="/assets/css/main.css" as="style">
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="icon" href="$favicon_url" type="image/svg+xml">
+  <link rel="preload" href="$css_url" as="style">
+  <link rel="stylesheet" href="$css_url">
   <meta property="og:type" content="website">
   <meta property="og:title" content="$page_title">
   <meta property="og:description" content="$description">
   <meta property="og:url" content="$canonical">
-  <meta property="og:image" content="https://floricaltd.com/assets/images/social-card.svg">
+  <meta property="og:image" content="$social_image_url">
   <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">$schema</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header" data-header>
-    <a class="brand" href="/" aria-label="$site_name home">
+    <a class="brand" href="$home_url" aria-label="$site_name home">
       <svg aria-hidden="true" viewBox="0 0 42 42"><path d="M21 2 39 12v18L21 40 3 30V12L21 2Z"/><path d="m13 14 8-5 8 5v9l-8 5-8-5v-9Z"/><circle cx="21" cy="31.5" r="2.5"/></svg>
       <span>FLORICA</span>
     </a>
@@ -103,11 +103,11 @@
   </main>
 
   <footer class="site-footer shell">
-    <div><a class="brand footer-brand" href="/">FLORICA</a><p>AI and technology,<br>made useful.</p></div>
-    <div><p class="footer-label">Explore</p><a href="/#services">Services</a><a href="/#products">Products</a><a href="/about/">About</a></div>
-    <div><p class="footer-label">Connect</p><a href="mailto:$email">$email</a><a href="/privacy/">Privacy</a></div>
+    <div><a class="brand footer-brand" href="$home_url">FLORICA</a><p>AI and technology,<br>made useful.</p></div>
+    <div><p class="footer-label">Explore</p><a href="$services_url">Services</a><a href="$products_url">Products</a><a href="$about_url">About</a></div>
+    <div><p class="footer-label">Connect</p><a href="mailto:$email">$email</a><a href="$privacy_url">Privacy</a></div>
     <p class="copyright">© $year Florica Ltd. All rights reserved.</p>
   </footer>
-  <script src="/assets/js/main.js" defer></script>
+  <script src="$js_url" defer></script>
 </body>
 </html>

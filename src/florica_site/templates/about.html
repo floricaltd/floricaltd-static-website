@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <title>$page_title</title><meta name="description" content="$description"><meta name="theme-color" content="#0b1714">
-  <link rel="canonical" href="$canonical"><link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="$canonical"><link rel="icon" href="$favicon_url" type="image/svg+xml"><link rel="stylesheet" href="$css_url">
   <script type="application/ld+json">$schema</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header" data-header>
-    <a class="brand" href="/" aria-label="$site_name home"><svg aria-hidden="true" viewBox="0 0 42 42"><path d="M21 2 39 12v18L21 40 3 30V12L21 2Z"/><path d="m13 14 8-5 8 5v9l-8 5-8-5v-9Z"/><circle cx="21" cy="31.5" r="2.5"/></svg><span>FLORICA</span></a>
+    <a class="brand" href="$home_url" aria-label="$site_name home"><svg aria-hidden="true" viewBox="0 0 42 42"><path d="M21 2 39 12v18L21 40 3 30V12L21 2Z"/><path d="m13 14 8-5 8 5v9l-8 5-8-5v-9Z"/><circle cx="21" cy="31.5" r="2.5"/></svg><span>FLORICA</span></a>
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button><span class="sr-only">Open menu</span><span></span><span></span></button>
     <nav id="site-nav" class="site-nav" aria-label="Primary" data-nav>$navigation<a class="button button-small" href="mailto:$email?subject=Let%27s%20talk">Start a conversation <span aria-hidden="true">↗</span></a></nav>
   </header>
@@ -22,7 +22,7 @@
     <section class="values shell"><div class="value"><span>01</span><h3>Clarity</h3><p>Plain language, honest trade-offs, and decisions people can act on.</p></div><div class="value"><span>02</span><h3>Craft</h3><p>Thoughtful details in the strategy, the system, and the experience.</p></div><div class="value"><span>03</span><h3>Care</h3><p>Respect for users, teams, data, and the consequences of what we build.</p></div></section>
     <section class="cta-section shell"><p class="eyebrow">Work with us</p><h2>Let’s make something<br>genuinely useful.</h2><a class="button button-light" href="mailto:$email?subject=Working%20with%20Florica">Start a conversation <span aria-hidden="true">↗</span></a></section>
   </main>
-  <footer class="site-footer shell"><div><a class="brand footer-brand" href="/">FLORICA</a><p>AI and technology,<br>made useful.</p></div><div><p class="footer-label">Explore</p><a href="/#services">Services</a><a href="/#products">Products</a><a href="/about/">About</a></div><div><p class="footer-label">Connect</p><a href="mailto:$email">$email</a><a href="/privacy/">Privacy</a></div><p class="copyright">© $year Florica Ltd. All rights reserved.</p></footer>
-  <script src="/assets/js/main.js" defer></script>
+  <footer class="site-footer shell"><div><a class="brand footer-brand" href="$home_url">FLORICA</a><p>AI and technology,<br>made useful.</p></div><div><p class="footer-label">Explore</p><a href="$services_url">Services</a><a href="$products_url">Products</a><a href="$about_url">About</a></div><div><p class="footer-label">Connect</p><a href="mailto:$email">$email</a><a href="$privacy_url">Privacy</a></div><p class="copyright">© $year Florica Ltd. All rights reserved.</p></footer>
+  <script src="$js_url" defer></script>
 </body>
 </html>
