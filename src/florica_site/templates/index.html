@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$page_title</title>
+  <meta name="description" content="$description">
+  <meta name="theme-color" content="#0b1714">
+  <link rel="canonical" href="$canonical">
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/css/main.css" as="style">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="$page_title">
+  <meta property="og:description" content="$description">
+  <meta property="og:url" content="$canonical">
+  <meta property="og:image" content="https://floricaltd.com/assets/images/social-card.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">$schema</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="/" aria-label="$site_name home">
+      <svg aria-hidden="true" viewBox="0 0 42 42"><path d="M21 2 39 12v18L21 40 3 30V12L21 2Z"/><path d="m13 14 8-5 8 5v9l-8 5-8-5v-9Z"/><circle cx="21" cy="31.5" r="2.5"/></svg>
+      <span>FLORICA</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+      <span class="sr-only">Open menu</span><span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary" data-nav>
+      $navigation
+      <a class="button button-small" href="mailto:$email?subject=Let%27s%20talk">Start a conversation <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell">
+      <div class="hero-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+      <p class="eyebrow">AI & technology consultancy</p>
+      <h1>Make the next<br><em>move matter.</em></h1>
+      <div class="hero-bottom">
+        <p>We turn complex technology into useful products, better operations, and an advantage your teams can sustain.</p>
+        <a class="text-link" href="#services">Explore what we do <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="trust-line" aria-label="Our focus">
+        <span>Strategy</span><i></i><span>AI</span><i></i><span>Engineering</span><i></i><span>Transformation</span>
+      </div>
+    </section>
+
+    <section class="section shell" id="services">
+      <div class="section-heading reveal">
+        <p class="eyebrow">What we do</p>
+        <h2>From a good question<br>to a working answer.</h2>
+        <p>We join strategy and delivery. That means less theatre, faster learning, and technology that earns its place in the business.</p>
+      </div>
+      <div class="services-grid">$service_cards</div>
+    </section>
+
+    <section class="signal-section">
+      <div class="shell signal-grid">
+        <div class="signal-visual reveal" aria-hidden="true">
+          <div class="signal-core"><span>Idea</span></div>
+          <div class="signal-ring ring-one"><span>Proof</span></div>
+          <div class="signal-ring ring-two"><span>Scale</span></div>
+        </div>
+        <div class="signal-copy reveal">
+          <p class="eyebrow">The Florica difference</p>
+          <h2>Momentum, without the mess.</h2>
+          <p>Technology programmes often stall between the slide deck and the real world. We keep a straight line from business value to shipped capability.</p>
+          <ul class="check-list">
+            <li>Senior people stay involved</li>
+            <li>Evidence replaces assumption</li>
+            <li>Risk is handled early, not hidden</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="products">
+      <div class="section-heading split reveal">
+        <div><p class="eyebrow">Ready-to-start offers</p><h2>Specific ways<br>to move forward.</h2></div>
+        <p>Clear scopes for common challenges. Start small, learn quickly, and expand only when the evidence supports it.</p>
+      </div>
+      <div class="products-grid">$product_cards</div>
+    </section>
+
+    <section class="section shell approach" id="approach">
+      <div class="approach-intro reveal">
+        <p class="eyebrow">How we work</p>
+        <h2>Practical by design.</h2>
+        <p>The right pace is fast enough to create energy and measured enough to create confidence.</p>
+      </div>
+      <ol class="principles">$principles</ol>
+    </section>
+
+    <section class="cta-section shell reveal">
+      <p class="eyebrow">A useful first conversation</p>
+      <h2>Bring us the challenge<br>that keeps resurfacing.</h2>
+      <p>In 30 minutes, we will help sharpen the question and identify a sensible next move. No hard sell.</p>
+      <a class="button button-light" href="mailto:$email?subject=A%20challenge%20for%20Florica">Talk to Florica <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <div><a class="brand footer-brand" href="/">FLORICA</a><p>AI and technology,<br>made useful.</p></div>
+    <div><p class="footer-label">Explore</p><a href="/#services">Services</a><a href="/#products">Products</a><a href="/about/">About</a></div>
+    <div><p class="footer-label">Connect</p><a href="mailto:$email">$email</a><a href="/privacy/">Privacy</a></div>
+    <p class="copyright">© $year Florica Ltd. All rights reserved.</p>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

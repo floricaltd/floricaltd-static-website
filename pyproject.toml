@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "floricaltd-static-website"
+version = "1.0.0"
+description = "Static website for Florica Ltd, generated with Python."
+requires-python = ">=3.11"
+license = { text = "All rights reserved" }
+
+[project.scripts]
+florica-build = "florica_site.build:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+florica_site = ["templates/*.html", "static/**/*"]
